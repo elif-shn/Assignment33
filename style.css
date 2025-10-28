@@ -1,31 +1,32 @@
-section {
-  display: flex;
-  flex: 1;
-  justify-content: center;
-  align-items: center;
-  padding: 40px 0;
-}
 form {
-  background: #fff;
-  padding: 40px 50px;
-  width: 80%;
-  max-width: 600px;
+    background: #fff;
+    padding: 40px 50px;
+    width: 80%;
+    max-width: 600px;
+    margin: auto;
 }
 fieldset {
-  border: none;
-  padding: 0;
+    border: none;
+}
+.row {
+    display: flex;
+    gap: 4%;
+    margin-bottom: 20px;
+}
+.column {
+    flex: 1;
 }
 label {
-  margin-bottom: 6px;
-  font-size: 14px;
+    display: block;
+    font-size: 14px;
 }
-input[type="text"] {
-  display: flex;
-  flex:left;
-  width: 50%;
-  padding: 12px 14px;
-  margin-bottom: 20px;
-  border: none;
-  background: #dedada;
-  font-size: 14px;
+input,
+textarea {
+    width: 100%;
+    padding: 12px 14px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+    box-sizing: border-box;
 }
