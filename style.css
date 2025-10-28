@@ -1,0 +1,31 @@
+section {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 0;
+}
+form {
+  background: #fff;
+  padding: 40px 50px;
+  width: 80%;
+  max-width: 600px;
+}
+fieldset {
+  border: none;
+  padding: 0;
+}
+label {
+  margin-bottom: 6px;
+  font-size: 14px;
+}
+input[type="text"] {
+  display: flex;
+  flex:left;
+  width: 50%;
+  padding: 12px 14px;
+  margin-bottom: 20px;
+  border: none;
+  background: #dedada;
+  font-size: 14px;
+}
